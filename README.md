@@ -6,7 +6,7 @@ A web-based version of the classic Stone, Paper, Scissors game built using HTML,
 * Interactive gameplay against a randomized computer opponent.
 * Live scorecard tracking wins, losses, and ties.
 * Instant status updates showing choices and results.
-* Responsive design for desktop and mobile devices.
+* Responsive design for desktop.
 
 ## Technologies Used
 * HTML5
@@ -27,7 +27,7 @@ A web-based version of the classic Stone, Paper, Scissors game built using HTML,
 ## File Structure
 ```text
 ├── index.html
-├── index.css
+├── index1.css
 └── app.js
 ```
 
