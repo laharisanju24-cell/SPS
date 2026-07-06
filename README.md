@@ -25,11 +25,20 @@ A web-based version of the classic Stone, Paper, Scissors game built using HTML,
 * Matching choices result in a tie.
 
 ## File Structure
-```text
+RPS l/
+│
 ├── index.html
 ├── index1.css
-└── app.js
-```
+├── app.js
+├── README.md
+│
+└── images/
+    ├── Background.png
+    ├── Shinchan Paper.png
+    ├── Shinchan Scissors.png
+    └── Shinchan stone.png
+
+
 
 ## Installation
 1. Clone the repository.
