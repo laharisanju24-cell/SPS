@@ -3,81 +3,53 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Stone Paper Scissor Game</title>
-    <link rel="stylesheet" href="index.css">
+    <title>Stone Paper Scissors</title>
+    <link rel="stylesheet" href="index1.css">
 </head>
 <body>
-    <h1>Stone Paper Scissors </h1>
-    <div class="choices">
-        <div class="choice" id="Stone">
-            <img src="images/Shinchan stone.png">
+    <div class="container">
+        <header>
+            <h1>Stone Paper Scissors</h1>
+        </header>
+
+        <section class="choices">
+            <div class="choice" id="stone">
+                <img src="images/Shinchan stone.png" alt="Stone">
+                <p>Stone</p>
+            </div>
+
+            <div class="choice" id="paper">
+                <img src="images/Shinchan Paper.png" alt="Paper">
+                <p>Paper</p>
+            </div>
+
+            <div class="choice" id="scissors">
+                <img src="images/Shinchan Scissors.png" alt="Scissors">
+                <p>Scissors</p>
+            </div>
+        </section>
+
+        <section class="score-board">
+            <div class="score">
+                <h2 id="user-score">0</h2>
+                <p>You</p>
+            </div>
+
+            <div class="vs">VS</div>
+
+            <div class="score">
+                <h2 id="comp-score">0</h2>
+                <p>Computer</p>
+            </div>
+        </section>
+
+        <div class="message-box">
+            <p id="msg">Choose your move.</p>
         </div>
-        <div class="choice" id="Paper">
-            <img src="images/Shinchan Paper.png">
-        </div>
-        <div class="choice" id="Scissors">
-            <img src="images/Shinchan Scissors.png">
-        </div>
-    </div>
-    <div class="score-board">
-        <div class="score">
-            <p id="user-score">0</p>
-            <p>You</p>
-        </div>
-        <div class="score">
-            <p id="comp-score">0</p>
-            <p>Comp</p>
-        </div>
-    </div>
-    <div class="msg-cont">
-        <p id="msg">Play your move</p>
+
+        <button id="reset">Reset Game</button>
     </div>
 
     <script src="app.js"></script>
 </body>
 </html>
-<!-- <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Stone Paper Scissor Game</title>
-    <link rel="stylesheet" href="index.css">
-</head>
-<body>
-    <div class="theme-toggle-container">
-        <button id="theme-toggle">🌙 Dark Mode</button>
-    </div>
-    
-    <h1>Stone Paper Scissors</h1>
-    
-    <div class="choices">
-        <div class="choice" id="Stone">
-            <img src="images/Stone.png" alt="Stone">
-        </div>
-        <div class="choice" id="Paper">
-            <img src="images/Paper.png" alt="Paper">
-        </div>
-        <div class="choice" id="Scissors">
-            <img src="images/Scissors.png" alt="Scissors">
-        </div>
-    </div>
-    
-    <div class="score-board">
-        <div class="score">
-            <p id="user-score">0</p>
-            <p>You</p>
-        </div>
-        <div class="score">
-            <p id="comp-score">0</p>
-            <p>Comp</p>
-        </div>
-    </div>
-    
-    <div class="msg-cont">
-        <p id="msg">Play your move</p>
-    </div>
-
-    <script src="app.js"></script>
-</body>
-</html> -->
